@@ -1,6 +1,6 @@
-import React, { ReactNode, useReducer } from "react";
-import authReducer from "./authReducer";
+import { ReactNode, useReducer } from "react";
 import AuthContext from "../contexts/authContext";
+import authReducer from "./authReducer";
 
 interface Props {
   children: ReactNode;
